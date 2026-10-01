@@ -1,0 +1,3 @@
+# Replace these placeholders with URLs you are authorized to audit.
+https://your-authorized-site.example
+https://your-authorized-api.example
