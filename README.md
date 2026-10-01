@@ -129,21 +129,6 @@ tests/            Local fixture and regression tests
 pentest.py        Direct launcher
 ```
 
-## Put it on GitHub
-
-Create an empty repository on GitHub, then run these commands from this project folder. Replace the example remote with your own repository URL:
-
-```bash
-git init
-git add .
-git commit -m "Initial ScopeGuard website security auditor"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/scopeguard.git
-git push -u origin main
-```
-
-The included `.gitignore` excludes actual scan reports and local environment files. The bundled `examples/demo.*` reports use synthetic data. No GitHub repository is created by running the tool.
-
 ## References
 
 Rule design is informed by the [OWASP HTTP Headers Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html), [OWASP CSP guidance](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html), and [OWASP TLS guidance](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html). This project is not an OWASP certification or complete OWASP testing implementation.
